@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header_row">
+            <img class="logo" src="./images/icons/icon.svg" alt="">
+            <a href=".#" class="none" id="logout_a">Logout</a>
+            <a href=".#" class="none" id="signin_a">Sign in</a>
+            <a href=".#" class="" id="signup_a">Sign up</a>
+        </div>
+    </header>
+<div class="container none">
+
+
+    <div id="charecter" class="charecter none">
+        <img id="charecter_img_anim" class="charecter_img_anim none" src="./images/icons/icon_stars.svg" alt="charecter_img_anim">
+        <img id="charecter_img" class="charecter_img none" src="./images/charecters/Character_Mona_Wish.png" alt="charecter_img">
+    </div>
+
+
+    <div class="stats none">
+        <h2>my stsats</h2>
+            <ul class="stats_list">
+                <li>Albedo</li>
+                <li>Hu Tao</li>
+            </ul>
+    </div>
+
+
+    <div class="container_row">
+        <h1>Banner №1!</h1>
+        <div class="banner">   
+            <a id="up" class="carusel none" href="">▲</a>
+            <a class="banner_icon_a" href=""><img class="banner_icon" src="./images/icons/icon_more.svg" alt="banner_icon"></a>
+            <br>
+            <img class="banner_img" src="./images/banner.jpg" alt="banner_img">
+            <img class="banner_img none" src="./images/banner2.jpg" alt="banner_img">
+            <img class="banner_img none" src="./images/banner3.jpg" alt="banner_img">
+            <a id="down" class="carusel none" href="">▼</a>
+        </div>
+        <br>
+        <button class="banner_spin" type="button">Spin</button>
+    </div>
+</div>
+
+<div class="signin">
+    <form id="signin_form" action="">
+        <input id="form_login" type="text" placeholder="type login here"><br>
+        <input id="form_password" type="password" placeholder="type password here"><br>
+        <button id="login_btn" type="submit">Sign in</button>
+    </form>
+</div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
