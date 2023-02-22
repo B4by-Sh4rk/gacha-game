@@ -45,18 +45,18 @@ const chr = {
 
 /* login */
 login_btn.addEventListener('click', function(){
-    if ((login == form_login.value)&&(password == form_password.value)){
+    //if ((login == form_login.value)&&(password == form_password.value)){
         logout_a.setAttribute('class', '');
         signup_a.setAttribute('class', 'none');
         logo.setAttribute('class', 'logo');
         signin.setAttribute('class', 'signin none');
         container.setAttribute('class', 'container');
         console.log('Успешный вход');
-    }
-    else{
+   // }
+    //else{
         signin.setAttribute('class','signin wrong');
         console.log('Логин или пароль не верны');
-    }
+   // }
 })
 
 
