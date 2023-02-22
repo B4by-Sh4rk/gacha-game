@@ -54,8 +54,8 @@ login_btn.addEventListener('click', function(){
         console.log('Успешный вход');
    // }
     //else{
-        signin.setAttribute('class','signin wrong');
-        console.log('Логин или пароль не верны');
+       // signin.setAttribute('class','signin wrong');
+       // console.log('Логин или пароль не верны');
    // }
 })
 
